@@ -182,6 +182,13 @@ footer .copy, footer .copy a {
   color: #8e8e8e;
 }
 
+/* page */
+
+.page {
+  margin: 3em 0 4em;
+  text-align:center;
+}
+
 /* article */
 
 .article {
