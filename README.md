@@ -1,4 +1,4 @@
 jasonngpt.github.io
 ===================
 
-Blog!
+Personal Blog at www.jasonngpt.com
