@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.jasonngpt.com/</id>
   <title>Jason Ng PT</title>
-  <updated>2013-11-24T16:00:00Z</updated>
+  <updated>2013-12-07T16:00:00Z</updated>
   <link rel="alternate" href="http://www.jasonngpt.com/"/>
   <link rel="self" href="http://www.jasonngpt.com/feed.xml"/>
   <author>
@@ -10,18 +10,43 @@
     <uri>jasonngpt.com</uri>
   </author>
   <entry>
+    <id>tag:www.jasonngpt.com,2013-12-08:/blog/sprucekit/</id>
+    <title type="html">SpruceKit</title>
+    <published>2013-12-07T16:00:00Z</published>
+    <updated>2013-12-07T16:00:00Z</updated>
+    <link rel="alternate" href="http://www.jasonngpt.com/blog/sprucekit/"/>
+    <content type="html">&lt;p&gt;Update on the PocketSpruce project I am on. I submitted a request to list this application into the Pocket list of applications, and was informed that I needed a new name as PocketSpruce contains Pocket. &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;So far I think I settled on SpruceKit as the new name of the application. Will be porting PocketSpruce to SpruceKit in the meantime. &lt;/p&gt;
+
+&lt;p&gt;Do drop me a note for suggestions of a better name.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <id>tag:www.jasonngpt.com,2013-11-25:/blog/pocketspruce/</id>
     <title type="html">PocketSpruce</title>
     <published>2013-11-24T16:00:00Z</published>
     <updated>2013-11-24T16:00:00Z</updated>
     <link rel="alternate" href="http://www.jasonngpt.com/blog/pocketspruce/"/>
-    <content type="html">&lt;p&gt;To learn more about Ruby, I decided to start a project to scratch my own itch. &lt;/p&gt;
+    <content type="html">&lt;p&gt;To have a deeper understanding on Ruby, I decided to start a project to scratch my own itch. &lt;/p&gt;
 
 &lt;p&gt;I have been using Pocket for a while already, and collected many links, maybe even too many. I wanted a simple service which can email a daily random article from my list to me. Also, since there are many duplicate links and dead links in my list, I wanted the service to clean them up too.  &lt;/p&gt;
 
 &lt;!-- more --&gt;
 
-&lt;p&gt;Introducing PocketSpruce.&lt;/p&gt;
+&lt;p&gt;Introducing PocketSpruce. &lt;/p&gt;
+
+&lt;p&gt;A simple web service which does the above. Currently, the main function is to email an item from the user’s Pocket list and archive it. So far it works well and it uses the below external services.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pocket API&lt;/li&gt;
+  &lt;li&gt;Mandrill to set transactional emails&lt;/li&gt;
+  &lt;li&gt;Readability API to extract out the content of the article to be sent to the user. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Code is up on GitHub but still pretty raw and lots of code clean-up to be done. First thing first is to add a testing framework, maybe RSpec. Try it out at www.pocketspruce.com and do drop me a feedback. Stay tune for more updates.&lt;/p&gt;
 </content>
   </entry>
 </feed>
