@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://www.jasonngpt.com/</id>
+  <title>Jason Ng PT</title>
+  <updated>2013-11-24T16:00:00Z</updated>
+  <link rel="alternate" href="http://www.jasonngpt.com/"/>
+  <link rel="self" href="http://www.jasonngpt.com/feed.xml"/>
+  <author>
+    <name>Jason Ng PT</name>
+    <uri>jasonngpt.com</uri>
+  </author>
+  <entry>
+    <id>tag:www.jasonngpt.com,2013-11-25:/blog/pocketspruce/</id>
+    <title type="html">PocketSpruce</title>
+    <published>2013-11-24T16:00:00Z</published>
+    <updated>2013-11-24T16:00:00Z</updated>
+    <link rel="alternate" href="http://www.jasonngpt.com/blog/pocketspruce/"/>
+    <content type="html">&lt;p&gt;To learn more about Ruby, I decided to start a project to scratch my own itch. &lt;/p&gt;
+
+&lt;p&gt;I have been using Pocket for a while already, and collected many links, maybe even too many. I wanted a simple service which can email a daily random article from my list to me. Also, since there are many duplicate links and dead links in my list, I wanted the service to clean them up too.  &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Introducing PocketSpruce.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
