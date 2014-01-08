@@ -7,7 +7,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 
     <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc 3.6.7"> 
+    <meta name="generator" content="nanoc 3.6.6"> 
   </head>
   <body>
     <div id="main">
@@ -136,9 +136,15 @@ a:hover {
 	font-size: 14px;
 }
 
+.post inline {
+	color: #888;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
 .post aside {
 	color: #888;
-	padding-bottom: 8px;
+	padding-bottom: 6px;
 	border-bottom: 1px solid #aaa;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10px;
