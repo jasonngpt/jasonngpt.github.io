@@ -32,11 +32,11 @@
     <link rel="alternate" href="http://www.jasonngpt.com/blog/pocketspruce/"/>
     <content type="html">&lt;p&gt;To have a deeper understanding on Ruby, I decided to start a project to scratch my own itch. &lt;/p&gt;
 
-&lt;p&gt;I have been using Pocket for a while already, and collected many links, maybe even too many. I wanted a simple service which can email a daily random article from my list to me. Also, since there are many duplicate links and dead links in my list, I wanted the service to clean them up too.  &lt;/p&gt;
+&lt;p&gt;I have been using Pocket for a while already, and collected many links, maybe even too many. I wanted a simple service which can email a daily random article from my list to my mailbox. Also, since there are many duplicate links and dead links in my list, I wanted the service to clean them up too.  &lt;/p&gt;
 
 &lt;!-- more --&gt;
 
-&lt;p&gt;Introducing PocketSpruce. &lt;/p&gt;
+&lt;p&gt;Introducing &lt;a href="http://www.sprucekit.com"&gt;PocketSpruce&lt;/a&gt;. &lt;/p&gt;
 
 &lt;p&gt;A simple web service which does the above. Currently, the main function is to email an item from the user’s Pocket list and archive it. So far it works well and it uses the below external services.&lt;/p&gt;
 
@@ -46,7 +46,7 @@
   &lt;li&gt;Readability API to extract out the content of the article to be sent to the user. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Code is up on GitHub but still pretty raw and lots of code clean-up to be done. First thing first is to add a testing framework, maybe RSpec. Try it out at www.pocketspruce.com and do drop me a feedback. Stay tune for more updates.&lt;/p&gt;
+&lt;p&gt;Code is up on GitHub but still pretty raw and lots of code clean-up to be done. First thing first is to add a testing framework, maybe RSpec. Try it out and do drop me a feedback. Stay tuned for more updates.&lt;/p&gt;
 </content>
   </entry>
 </feed>
